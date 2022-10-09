@@ -12,6 +12,7 @@ int max ,least;
 printf("Enter the number of elements u want:\n");
 scanf("%d" ,&x);
 
+
 for(i=0;i<x;i++)
 {
     printf("enter the value of element %d:" ,i+1);
