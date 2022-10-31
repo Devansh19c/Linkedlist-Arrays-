@@ -29,7 +29,8 @@ scanf("%d" ,&a);
 
 for(i=0;i<x;i++){
    
-    if(array[i]==a){
+    if(array[i]==a)
+    {
     //  printf("Item found");
        flag=1;
        
@@ -37,7 +38,8 @@ for(i=0;i<x;i++){
     else 
         flag=0;
 }
-if (flag==1){
+if (flag==1)
+{
     printf("item found");
 }
 else 

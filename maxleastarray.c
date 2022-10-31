@@ -6,7 +6,6 @@ int main(){
 int array[100];
 int x;
 int i;
-int a;
 int flag;
 int max ,least;
 printf("Enter the number of elements u want:\n");
@@ -15,11 +14,12 @@ scanf("%d" ,&x);
 
 for(i=0;i<x;i++)
 {
-    printf("enter the value of element %d:" ,i+1);
+    printf("enter the value of element %d:" ,i+1); 
     scanf("%d" ,&array[i]);
 
-}
+} 
 printf("The given array is :\n");
+
 
 for(i=0;i<x;i++)
 {

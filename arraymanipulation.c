@@ -9,6 +9,8 @@ int i;
 int a;
 int flag;
 
+
+
 printf("Enter the number of elements u want:\n");
 scanf("%d" ,&x);
 

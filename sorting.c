@@ -12,8 +12,8 @@ int z;
 printf("Enter the number of elements in first array:\n");
 scanf("%d" ,&x);
 for(i=0;i<x;i++)
-{
 
+{
  printf("Enter the element %d\n" ,i+1);
  scanf("%d" ,&a[i]);
 
@@ -21,22 +21,22 @@ for(i=0;i<x;i++)
 printf("The first array is :\n");
 
 for(i=0;i<x;i++)
-
 {
-    printf("%d\n" ,a[i]); 
-
+    printf("%d\n" ,a[i]);
+    
 }
 
 //second array
 printf("Enter the number of elements in second array:\n");
 scanf("%d" ,&y);
 for(i=0;i<y;i++)
+
 {
+
  printf("Enter the element %d\n" ,i+1);
  scanf("%d" ,&b[i]);
 
 }
-
 printf("The second array is :\n");
 
 for(i=0;i<y;i++){
@@ -57,9 +57,6 @@ for(j=x;j<x+y;j++)
     z++;
 }
 
-    
-
-
 printf("The merged array is :\n");
 
 for(i=0;i<x+y;i++)
@@ -68,6 +65,7 @@ for(i=0;i<x+y;i++)
     
 }
 //sorting
+
 
 return 0;
 }
