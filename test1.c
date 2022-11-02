@@ -7,6 +7,7 @@ int arr1[10];
 int size;
 int x;
 
+
 printf("Enter the Number of elements in the array:\n");
 scanf("%d" ,&size);
 
